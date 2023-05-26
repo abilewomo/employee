@@ -1,38 +1,92 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border: solid 3px #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  width: 50vw;
+  border: solid 1px #f5a623;
+  margin: 3px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.employee{
+  width: 50vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: solid 1px #8b572a;
+  margin: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  display: flex;
+  flex-direction: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  color: #4a90e1;
+}
+input{
+  width: 44vw;
+  padding: 2vw;
+  margin: 0.5vw;
+  border:solid 1px #e0dfdf;
+  border-radius: 15px;
+}
+.header-center{
+  text-align: center;
+  width: 85%;
+}
+.left{
+  text-align: center;
+  width: 10%;
+}
+.left a{
+  text-decoration: none;
+  color: #4a90e1;
+}
+.details{
+  width: 80%;
+  margin: 10px auto;
+  
+}
+.details div{
+  border: solid 1px #e0dfdf;
+  min-height: 8vh;
+  padding: 15px;
+}
+.details h2, p{
+  margin: 0;
+}
+.details :first-child{
+  display: flex;
+  flex-direction: row;
+}
+.details :first-child div{
+  border: none;
+  margin: auto;
+  
+}
+.details h2{
+  font-size: 16pt;
+  font-weight: 500;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+  border: solid 2px #d0021b;
+  height: auto;
+  padding: 15px;
+  margin: 3px;
+}
+li a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+img{
+  width: 200px;
+  padding: 0 20px;
+}
+li a img{
+  width: 150px;
 }
